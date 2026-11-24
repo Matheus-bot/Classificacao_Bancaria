@@ -1,0 +1,19 @@
+# Dados brutos (baixados do Kaggle ou enviados pelo professor): não versionar
+data/raw/
+
+# Ambiente virtual e cache do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos salvos grandes (gerados pelo notebook)
+*.pkl
+*.joblib
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+.vscode/
